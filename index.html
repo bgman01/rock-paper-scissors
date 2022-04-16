@@ -4,26 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors!</title>
-    <link rel ="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id ="message">
-        <p id = "welcome">Click your choice below to play a game against the CPU! First to 5 wins!</p>
-        <p id="congrats"></p>
+    <main id="mainGame">
+    <h1 id="rpsHead">Rock, Paper, Scissors</h1>
+    <h2 id="instruction">Make your choice below. First to 5 wins! </h2>
+    <p id="congrats"></p>
+    <div class="scoreLabel-container">
+        <p id = "playerLabel">You</p>
+        <p id = "computerLabel">CPU</p>
     </div>
-    <div id ="counter">
-        <p id = "playerScoreDisplay">0</p>
-        <p id = "computerScoreDisplay">0</p>
+    <div class="score-container">
+        <p id="player-score">0</p>
+        <p id="computer-score">0</p>
     </div>
-    <div class="optionBtn">
-        <button value= "rock" id="btn">Rock</button>
-        <button value = "paper" id="btn">Paper</button>
-        <button value = "scissors" id="btn">Scissors</button>
+    <div class="result">
+        <p id="message"></p>
     </div>
-    <div>
+    <div class="play-container">
+        <div class="btn-container">
+            <div id="rock" class="button">
+                <img src="png-transparent-gray-rock-art-graphic-design-rock-angle-rock-animation.png" alt="rock">
+            </div>
+            <div id="paper" class="button">
+                <img src="1211762231714974030DooFi_Trash_Bins_3.svg.hi.png" alt="paper">
+            </div>
+            <div id="scissors" class="button">
+                <img src="PinClipart.com_scissor-clipart_5238474.png" alt="scissors">
+            </div>
+        </div>
+    </div>
+    <div class="replay">
         <button id="playAgain">Play Again!</button>
     </div>
-    <script src="script.js"></script>
+    </main>
+    <script src="script2.js"></script>
 </body>
 </html>

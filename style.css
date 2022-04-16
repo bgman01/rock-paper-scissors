@@ -1,0 +1,86 @@
+body {
+    background-color: grey;
+    color: white;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+#rpsHead, #instruction {
+    display: flex;
+    justify-content: center;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.button {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-container img {
+    width: 175px;
+}
+
+.scoreLabel-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+#playerLabel, #computerLabel {
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+}
+
+#player-score, #computer-score {
+    padding: 30px;
+    font-size: 40px;
+}
+
+#player-score {
+    color: lightgreen;
+}
+
+#computer-score {
+    color: lightcoral;
+}
+
+#congrats {
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+.replay {
+    display: flex;
+    justify-content: center;
+}
+
+.replay #playAgain {
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
